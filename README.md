@@ -42,7 +42,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create an issue
-        uses: your-username/create-issue@v1
+        uses: tdupoiron-actions/create-issue@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
@@ -63,7 +63,7 @@ jobs:
     steps:
       - name: Create an issue
         id: create-issue
-        uses: your-username/create-issue@v1
+        uses: tdupoiron-actions/create-issue@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}

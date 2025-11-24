@@ -1,6 +1,9 @@
 name: 'Create Issue'
 description: 'Create a GitHub issue using Octokit'
-author: 'Your Name'
+author: 'tdupoiron-actions'
+branding:
+  icon: 'alert-circle'
+  color: 'blue'
 
 inputs:
   github-token:
